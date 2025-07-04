@@ -71,6 +71,20 @@ http://<tailscale-ip-of-pi>:8080
 
 ---
 
+### 📱 Access from Mobile
+
+Once the Tailscale app is installed and logged in on your phone (using the **same account** as your Raspberry Pi), you can access Filebrowser directly by visiting the Pi’s Tailscale IP in your mobile browser:
+
+```
+http://<tailscale-ip>:8080
+```
+
+✅ This works as long as the Tailscale app is **active** on your phone and the Pi is connected to the internet.  
+No extra configuration is needed — secure access is handled through Tailscale's mesh VPN.
+
+
+---
+
 ## ✅ Summary
 
 - ✅ Raspberry Pi is accessible from any Tailscale-connected device using its Tailscale IP.
